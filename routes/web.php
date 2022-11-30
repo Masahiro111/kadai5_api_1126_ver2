@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LineItemController;
 use App\Http\Controllers\ProductController;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
@@ -25,3 +26,7 @@ Route::controller(Product::class)->name('product.')->group(function () {
 });
 
 Route::view('/aoubt', 'about')->name('about');
+
+Route::name('line_item.')->group(function () {
+    Route::post('/line_item/create', [LineItemController::class, 'create'])->name('create');
+});
