@@ -12,4 +12,9 @@ class Product extends Model
     protected $fillable = [
         'name', 'description', 'image', 'price'
     ];
+
+    public function carts()
+    {
+        return $this->belongsToMany(Cart::class, 'line_items')->withPivot(['id', 'quantity']);
+    }
 }
