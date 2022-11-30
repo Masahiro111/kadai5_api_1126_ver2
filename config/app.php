@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'EC shop on Laravel and stripe',
 
     /*
     |--------------------------------------------------------------------------
