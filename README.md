@@ -27,6 +27,6 @@ Laravel と Stripe で作成するシャレオツな T シャツ EC ショップ
 Laravel と Stripe を使用したファッション EC サイトの作り方  
 https://www.techpit.jp/courses/159/
 
-**Arrown**
+**Arrown**  
 Laravel をさくらインターネットアップロードする方法  
 https://arrown-blog.com/laravel-sakura-deploy/
