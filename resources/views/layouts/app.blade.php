@@ -5,12 +5,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta property="og:title" content="G's BRAND EC Shop | 5 回目 課題">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://masahiro111.sakura.ne.jp/">
+        <meta property="og:image" content="https://masahiro111.sakura.ne.jp/">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:site_name" content="G's BRAND EC Shop">
+        <meta property="og:description" content="Laravel と Stripe で作成する シャレオツなＴシャツＥＣショップ（学習試作版）">
+
         <title>@yield('title') - {{ config('app.name', 'Laravel')}}</title>
         <meta name="description" content="Free open source Tailwind CSS Store template">
         <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic">
 
         <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
-
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
 
         <style>
