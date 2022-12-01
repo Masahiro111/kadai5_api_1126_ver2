@@ -75,7 +75,25 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Gray T-shirt',
                 'description' => 'コットン素材を使用したクルーネックのカットソー。',
                 'image' => '/images/9.jpg',
-                'price' => '4500'
+                'price' => '3000'
+            ],
+            [
+                'name' => 'Border T-shirt',
+                'description' => 'コットン素材を使用したクルーネックのカットソー。',
+                'image' => '/images/10.jpg',
+                'price' => '2800'
+            ],
+            [
+                'name' => 'Border Long Sleeve T-shirt',
+                'description' => 'コットン素材を使用したクルーネックのカットソー。',
+                'image' => '/images/11.jpg',
+                'price' => '3800'
+            ],
+            [
+                'name' => 'Gray T-shirt',
+                'description' => 'コットン素材を使用したクルーネックのカットソー。',
+                'image' => '/images/12.jpg',
+                'price' => '2500'
             ],
         ]);
     }
