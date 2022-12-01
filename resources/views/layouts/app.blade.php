@@ -9,7 +9,7 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://masahiro111.sakura.ne.jp/kadai5">
         <meta property="og:site_name" content="G's BRAND EC Shop">
-        <meta property="og:description" content="Laravel と Stripe で作成する シャレオツなＴシャツＥＣショップ">
+        <meta property="og:description" content="Laravel と Stripe で作成するシャレオツなＴシャツＥＣショップ">
 
         <title>@yield('title') - {{ config('app.name', 'Laravel')}}</title>
         <meta name="description" content="Free open source Tailwind CSS Store template">
