@@ -7,8 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta property="og:title" content="G's BRAND EC Shop | 5 回目 課題">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://masahiro111.sakura.ne.jp/">
-        <meta property="og:image" content="https://masahiro111.sakura.ne.jp/">
+        <meta property="og:url" content="https://masahiro111.sakura.ne.jp/kadai5">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:site_name" content="G's BRAND EC Shop">
@@ -91,7 +90,7 @@
                 </label>
                 <input class="hidden" type="checkbox" id="menu-toggle" />
 
-                <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
+                <div class="hidden md:flex-1 md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
                     <nav>
                         <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
                             <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="{{ route('product.index') }}">Home</a></li>
@@ -100,7 +99,7 @@
                     </nav>
                 </div>
 
-                <div class="order-1 md:order-2">
+                <div class="md:flex md:flex-1 order-1 md:order-2 md:justify-center">
                     <a
                        class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl "
                        href="{{ route('product.index') }}">
@@ -111,7 +110,7 @@
                     </a>
                 </div>
 
-                <div class="order-2 md:order-3 flex items-center" id="nav-content">
+                <div class="order-2 md:order-3 md:flex md:flex-1 items-center md:justify-end" id="nav-content">
 
                     {{-- <a
                        class="inline-block no-underline hover:text-black"
