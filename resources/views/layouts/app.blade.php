@@ -8,8 +8,6 @@
         <meta property="og:title" content="G's BRAND EC Shop | 5 回目 課題">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://masahiro111.sakura.ne.jp/kadai5">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
         <meta property="og:site_name" content="G's BRAND EC Shop">
         <meta property="og:description" content="Laravel と Stripe で作成する シャレオツなＴシャツＥＣショップ">
 
