@@ -22,11 +22,11 @@
 
                     <div class="grid grid-cols-2 gap-4">
                         <div class="bg-gray-100 rounded-lg overflow-hidden">
-                            <img src="https://images.unsplash.com/flagged/photo-1571366992791-2ad2078656cb?auto=format&q=75&fit=crop&w=250" loading="lazy" alt="Photo by Himanshu Dewangan" class="w-full h-full object-cover object-center" />
+                            <img src="{{ asset($product->image) }}" loading="lazy" alt="Photo by Himanshu Dewangan" class="w-full h-full object-cover object-center" />
                         </div>
 
                         <div class="bg-gray-100 rounded-lg overflow-hidden">
-                            <img src="https://images.unsplash.com/flagged/photo-1571366992968-15b65708ee76?auto=format&q=75&fit=crop&w=250" loading="lazy" alt="Photo by Himanshu Dewangan" class="w-full h-full object-cover object-center" />
+                            <img src="{{ asset($product->image) }}" loading="lazy" alt="Photo by Himanshu Dewangan" class="w-full h-full object-cover object-center" />
                         </div>
                     </div>
                 </div>
@@ -73,13 +73,13 @@
 
                     <!-- color - start -->
                     <div class="mb-4 md:mb-6">
-                        <span class="inline-block text-gray-500 text-sm md:text-base font-semibold mb-3">Color</span>
+                        <span class="inline-block text-gray-500 text-sm md:text-base font-semibold mb-4">Color</span>
 
-                        <div class="flex flex-wrap gap-2">
-                            <span class="w-8 h-8 bg-gray-800 border ring-2 ring-offset-1 ring-gray-800 rounded-full transition duration-100"></span>
-                            <button type="button" class="w-8 h-8 bg-gray-500 border ring-2 ring-offset-1 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
-                            <button type="button" class="w-8 h-8 bg-gray-200 border ring-2 ring-offset-1 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
-                            <button type="button" class="w-8 h-8 bg-white border ring-2 ring-offset-1 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
+                        <div class="flex flex-wrap gap-4">
+                            <button type="button" class="ml-1 w-7 h-7 bg-gray-800 ring-2 ring-offset-4  ring-transparent hover:ring-gray-200 rounded-full transition duration-100 ring-gray-800 rounded-full transition duration-100"></button>
+                            <button type="button" class="w-7 h-7 bg-gray-500 ring-2 ring-offset-4 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
+                            <button type="button" class="w-7 h-7 bg-gray-200 ring-2 ring-offset-4 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
+                            <button type="button" class="w-7 h-7 bg-white border ring-2 ring-offset-4 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
                         </div>
                     </div>
                     <!-- color - end -->
