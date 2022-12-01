@@ -1,4 +1,4 @@
-# 課題5 -Laravel と Stripe を使用した EC ショップ  -
+# 課題5 - Laravel と Stripe を使用した EC ショップ -
 
 ## アプリの使い方
 **トップページ**  
