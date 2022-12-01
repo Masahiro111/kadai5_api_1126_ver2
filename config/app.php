@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => 'EC shop on Laravel and stripe',
+    'name' => 'EC shop on Laravel and Stripe',
 
     /*
     |--------------------------------------------------------------------------
