@@ -11,7 +11,7 @@
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:site_name" content="G's BRAND EC Shop">
-        <meta property="og:description" content="Laravel と Stripe で作成する シャレオツなＴシャツＥＣショップ（学習試作版）">
+        <meta property="og:description" content="Laravel と Stripe で作成する シャレオツなＴシャツＥＣショップ">
 
         <title>@yield('title') - {{ config('app.name', 'Laravel')}}</title>
         <meta name="description" content="Free open source Tailwind CSS Store template">
